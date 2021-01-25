@@ -4,6 +4,7 @@ nav {
   justify-content: flex-end;
   top: 0;
   position: sticky;
+  z-index: 999;
 }
 
 @media only screen and (min-width: 992px) {
@@ -26,6 +27,7 @@ nav {
   font-size: large;
   font-weight: 600;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .nav_text:hover {

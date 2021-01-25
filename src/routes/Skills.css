@@ -1,4 +1,55 @@
 .skills {
   height: 92vh;
-  background-color: violet;
+  /* background-color: violet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills_container {
+  /* padding: 50px 0px; */
+  width: 90%;
+  border-top: 1px solid black;
+}
+
+.skills_title {
+  font-size: 0.8rem;
+  position: relative;
+  width: 120px;
+  background-color: #fff;
+  letter-spacing: 3px;
+  top: -10px;
+  font-weight: 700;
+  color: rgb(73, 73, 73);
+  margin: 0;
+}
+
+.skills_icon_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.icon_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin: 20px;
+}
+
+.icon {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 5px;
+}
+
+.icon_name {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }

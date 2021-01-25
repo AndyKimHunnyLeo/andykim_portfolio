@@ -23,20 +23,12 @@ const Navigation = () => {
     burger.classList.toggle('toggle');
   };
 
-  // const optionClicked = () => {
-  //   const nav = document.querySelector('.nav_menuList');
-  //   const burger = document.querySelector('.burger');
-  //   const nav_links = document.querySelectorAll('.nav_text');
-  //   nav.classList.toggle('nav_active');
-  //   burger.classList.toggle('toggle');
-  //   nav_links.forEach((link, index) => {
-  //     if (link.style.animation) {
-  //       link.style.animation = '';
-  //     } else {
-  //       link.style.animation = `nav_link_fade 0.5s ease forwards ${index / 5}s`;
-  //     }
-  //   });
-  // };
+  const menuClicked = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav_menuList');
+    nav.classList.remove('nav_active');
+    burger.classList.remove('toggle');
+  };
   return (
     <nav className='nav'>
       <ul className='nav_menuList'>
@@ -48,9 +40,9 @@ const Navigation = () => {
           hashSpy={true}
           offset={0}
           duration={500}
-          onClick={nav_slide}
+          onClick={menuClicked}
           className='nav_text'>
-          <span className='text'>Home</span>
+          <btn className='text'>Home</btn>
         </Link>
         <Link
           activeClass='onClick'
@@ -60,7 +52,7 @@ const Navigation = () => {
           hashSpy={true}
           offset={0}
           duration={500}
-          onClick={nav_slide}
+          onClick={menuClicked}
           className='nav_text'>
           <span className='text'>About</span>
         </Link>
@@ -71,7 +63,7 @@ const Navigation = () => {
           smooth={true}
           hashSpy={true}
           offset={0}
-          onClick={nav_slide}
+          onClick={menuClicked}
           duration={500}
           className='nav_text'>
           <span className='text'>Skills</span>
@@ -84,7 +76,7 @@ const Navigation = () => {
           hashSpy={true}
           offset={0}
           duration={500}
-          onClick={nav_slide}
+          onClick={menuClicked}
           className='nav_text'>
           <span className='text'>Contact</span>
         </Link>
