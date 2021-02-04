@@ -1,5 +1,5 @@
 .skills {
-  height: 92vh;
+  height: 70vh;
   /* background-color: violet; */
   display: flex;
   justify-content: center;
@@ -11,6 +11,7 @@
   /* padding: 50px 0px; */
   width: 90%;
   border-top: 1px solid black;
+  margin-top: 20px;
 }
 
 .skills_title {
@@ -26,11 +27,11 @@
 }
 
 .skills_icon_container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 105px);
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
+  grid-gap: 10px;
 }
 
 .icon_container {
@@ -52,4 +53,27 @@
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .skills_icon_container {
+    grid-gap: 6px;
+  }
+
+  .icon {
+    max-width: 70px;
+    max-height: 70px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  .skills_icon_container {
+    grid-gap: 0px;
+  }
+  .icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 5px;
+  }
 }

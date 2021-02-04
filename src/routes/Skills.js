@@ -66,7 +66,7 @@ const Skills = () => {
               alt='HTML'
               className='icon'
             />
-            <span className='icon_name'>Redux</span>
+            <span className='icon_name'>MySQL</span>
           </div>
           <div className='icon_container'>
             <img
@@ -74,7 +74,7 @@ const Skills = () => {
               alt='HTML'
               className='icon'
             />
-            <span className='icon_name'>Redux</span>
+            <span className='icon_name'>NodeJS</span>
           </div>
           <div className='icon_container'>
             <img
@@ -88,7 +88,7 @@ const Skills = () => {
               src='https://puredevper.s3.amazonaws.com/ExpressJS.png'
               alt='MongoDB'
               className='icon'></img>
-            <span className='icon_name'>MongoDB</span>
+            <span className='icon_name'>Express</span>
           </div>
         </div>
       </div>

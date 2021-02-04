@@ -2,7 +2,8 @@ import React from 'react';
 import About from '../routes/About';
 import Contact from '../routes/Contact';
 import Home from '../routes/Home';
-import Skills from '../routes/Skills';
+import Projects from '../routes/Projects';
+import Skills from '../routes/SkillsV2';
 import Navigation from './Navigation';
 
 const AppRouter = () => {
@@ -12,6 +13,7 @@ const AppRouter = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
       <Contact />
     </div>
   );

@@ -26,8 +26,12 @@ const Navigation = () => {
   const menuClicked = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav_menuList');
+    const nav_links = document.querySelectorAll('.nav_text');
     nav.classList.remove('nav_active');
     burger.classList.remove('toggle');
+    nav_links.forEach((link) => {
+      link.style.animation = '';
+    });
   };
   return (
     <nav className='nav'>

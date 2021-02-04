@@ -5,6 +5,7 @@ nav {
   top: 0;
   position: sticky;
   z-index: 999;
+  border-bottom: 1px solid black;
 }
 
 @media only screen and (min-width: 992px) {
@@ -63,6 +64,9 @@ nav {
     background-color: #0b0b0b;
     margin: 5px;
     transition: all 0.3s ease;
+  }
+  .nav {
+    border-bottom: 0px solid black;
   }
 }
 @media only screen and (max-width: 991px) and (min-width: 768px) {
