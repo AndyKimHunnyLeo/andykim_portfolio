@@ -8,7 +8,7 @@ const SkillsV2 = () => {
       <div className='skills_container_title'>
         <h3 className='skills_title'>The Skills I have</h3>
       </div>
-      <div className='skills_container_skills_container'>
+      <div className='skills_container_skills_container' data-aos='fade-down'>
         <div className='skills_container_skills'>
           <div className='box_container'>
             <div className='skill_box'>
