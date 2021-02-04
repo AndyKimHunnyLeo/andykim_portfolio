@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//andykim_portfolio/static/css/main.46b52515.chunk.css",
-    "main.js": "//andykim_portfolio/static/js/main.972c5f38.chunk.js",
-    "main.js.map": "//andykim_portfolio/static/js/main.972c5f38.chunk.js.map",
-    "runtime-main.js": "//andykim_portfolio/static/js/runtime-main.1964117a.js",
-    "runtime-main.js.map": "//andykim_portfolio/static/js/runtime-main.1964117a.js.map",
-    "static/js/2.ca61df4a.chunk.js": "//andykim_portfolio/static/js/2.ca61df4a.chunk.js",
-    "static/js/2.ca61df4a.chunk.js.map": "//andykim_portfolio/static/js/2.ca61df4a.chunk.js.map",
-    "index.html": "//andykim_portfolio/index.html",
-    "static/css/main.46b52515.chunk.css.map": "//andykim_portfolio/static/css/main.46b52515.chunk.css.map",
-    "static/js/2.ca61df4a.chunk.js.LICENSE.txt": "//andykim_portfolio/static/js/2.ca61df4a.chunk.js.LICENSE.txt",
-    "static/media/CV.fe02caf4.pdf": "//andykim_portfolio/static/media/CV.fe02caf4.pdf",
-    "static/media/Projects.css": "//andykim_portfolio/static/media/Twitter.6e571538.png"
+    "main.css": "/andykim_portfolio/static/css/main.b6a61cc0.chunk.css",
+    "main.js": "/andykim_portfolio/static/js/main.972c5f38.chunk.js",
+    "main.js.map": "/andykim_portfolio/static/js/main.972c5f38.chunk.js.map",
+    "runtime-main.js": "/andykim_portfolio/static/js/runtime-main.62a86955.js",
+    "runtime-main.js.map": "/andykim_portfolio/static/js/runtime-main.62a86955.js.map",
+    "static/js/2.ca61df4a.chunk.js": "/andykim_portfolio/static/js/2.ca61df4a.chunk.js",
+    "static/js/2.ca61df4a.chunk.js.map": "/andykim_portfolio/static/js/2.ca61df4a.chunk.js.map",
+    "index.html": "/andykim_portfolio/index.html",
+    "static/css/main.b6a61cc0.chunk.css.map": "/andykim_portfolio/static/css/main.b6a61cc0.chunk.css.map",
+    "static/js/2.ca61df4a.chunk.js.LICENSE.txt": "/andykim_portfolio/static/js/2.ca61df4a.chunk.js.LICENSE.txt",
+    "static/media/CV.fe02caf4.pdf": "/andykim_portfolio/static/media/CV.fe02caf4.pdf",
+    "static/media/Projects.css": "/andykim_portfolio/static/media/Twitter.6e571538.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1964117a.js",
+    "static/js/runtime-main.62a86955.js",
     "static/js/2.ca61df4a.chunk.js",
-    "static/css/main.46b52515.chunk.css",
+    "static/css/main.b6a61cc0.chunk.css",
     "static/js/main.972c5f38.chunk.js"
   ]
 }
