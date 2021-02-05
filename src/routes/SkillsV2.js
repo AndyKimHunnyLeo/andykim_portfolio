@@ -39,10 +39,10 @@ const SkillsV2 = () => {
               </div>
               <h4 className='skill_box_title'>Back End</h4>
               <p className='skill_box_content'>
-                I use MERN for most of my projects. Design schema often comes to
-                the base of business logic. I design the schema ver carefully
-                and communicate with MongoDB using nodeJs server with express. I
-                have a strong fundamental of CRUD operations.
+                Design schema often comes to the base of business logic. I
+                design the schema ver carefully and communicate with MongoDB
+                using nodeJs server with express. I have a strong fundamental of
+                CRUD operations.
               </p>
             </div>
           </div>
@@ -56,10 +56,10 @@ const SkillsV2 = () => {
               </div>
               <h4 className='skill_box_title'>Others</h4>
               <p className='skill_box_content'>
-                Not only programming skills know how to work as a team is
-                required for programmers. I fully understand how agile
-                development works and I'm fully comfortable to make a version
-                control with git.
+                Not only programming skills know how to work as a team I
+                required for programmers. I take teamwork as the first priority.
+                I fully understand how agile development works and I'm fully
+                comfortable to make a version control with git.
               </p>
             </div>
           </div>

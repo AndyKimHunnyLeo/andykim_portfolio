@@ -1,11 +1,3 @@
-// import React from 'react';
-// import './Contact.css';
-
-// const Contact = () => {
-//   return <div className='contact'>contact</div>;
-// };
-
-// export default Contact;
 import React, { useState } from 'react';
 import * as emailjs from 'emailjs-com';
 import LoadingGlobalOpacity from '../components/globalLoading';

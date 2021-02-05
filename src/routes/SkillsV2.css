@@ -2,6 +2,7 @@
   height: auto;
   padding-top: 100px;
   padding-bottom: 150px;
+  background: url(../resources/skill_bg.jpg) no-repeat center center/cover;
   width: 100%;
 }
 .skills_title {
@@ -49,6 +50,7 @@
   flex-direction: column;
   margin-right: 15px;
   margin-left: 15px;
+  background-color: white;
   margin-top: 15px;
 }
 

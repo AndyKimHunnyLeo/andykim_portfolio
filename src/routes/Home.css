@@ -1,6 +1,6 @@
 .home {
   height: 70vh;
-  /* background-image: url(../resources/home_bg.jpg); */
+  background-image: url(../resources/home_bg.jpg);
   background-color: #cfc6cc;
   background-size: 100% 100%;
   display: flex;
@@ -45,10 +45,14 @@
   background: #ec5b53;
   color: #fff;
 }
-
+@media (max-width: 1460px) {
+  .text_container {
+    width: 60%;
+  }
+}
 @media (max-width: 1200px) {
   .text_container {
-    width: 80%;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 991px) {
