@@ -19,7 +19,6 @@ const SkillsV2 = () => {
                   className='skill_box_icon'
                 />
               </div>
-
               <h4 className='skill_box_title'>Front End</h4>
               <p className='skill_box_content'>
                 My javascript skills up to date till ES6 such as promise and
@@ -40,9 +39,9 @@ const SkillsV2 = () => {
               <h4 className='skill_box_title'>Back End</h4>
               <p className='skill_box_content'>
                 Design schema often comes to the base of business logic. I
-                design the schema ver carefully and communicate with MongoDB
-                using nodeJs server with express. I have a strong fundamental of
-                CRUD operations.
+                design the schema very carefully and communicate with MongoDB
+                using Node.js server with express. I have a strong fundamental
+                of CRUD operations.
               </p>
             </div>
           </div>

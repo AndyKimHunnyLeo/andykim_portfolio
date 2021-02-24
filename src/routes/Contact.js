@@ -49,6 +49,17 @@ function Contacts() {
   };
   return (
     <div className='contact' id='contact'>
+      {/* <div className='contact_text_container'>
+        <h1 className='contact_text_heading'>
+          If Not Now, When? Let’s Work Together!
+        </h1>
+        <p className='content'>
+          My javascript skills up to date till ES6 such as promise and
+          async/sync function. I also up to on latest trend of web trend. I am
+          comfortable with technology like redux or make an HTTP request with
+          REST API.
+        </p>
+      </div> */}
       <div className='contact_container'>
         <div className='contact_container_container'>
           <h1 className='contact_title'>contacts</h1>

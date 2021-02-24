@@ -7,6 +7,17 @@
   align-items: center;
   z-index: 3;
 }
+
+.contact_text_container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact_text_heading {
+  font-style: italic;
+}
 .contact_container {
   width: 80%;
 }
