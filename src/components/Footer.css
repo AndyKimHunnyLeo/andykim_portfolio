@@ -1,0 +1,38 @@
+.footer_content {
+  width: 100%;
+  display: flex;
+  height: calc(100px + 2vmin);
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 235, 238);
+}
+.footer_contacts {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer_contact {
+  opacity: 0.5;
+  padding: 0;
+  border: none;
+  font-size: calc(3px + 1.2vmin);
+  background: none;
+  transition: 0.5s;
+  color: #2e2e30;
+}
+
+.footer_contact:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #ff7676;
+}
+
+.footer_cpr {
+  font-size: 12px;
+}

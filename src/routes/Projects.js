@@ -36,7 +36,7 @@ const Projects = () => {
               <button
                 className='animation_btn_white_to_pink btn side_projects'
                 onClick={() => {
-                  alert('Sorry source code is unavailable');
+                  alert('Sorry source code is unavailable for this project');
                 }}>
                 <i className='fa fa-github fa-2x icons main_project_icons'></i>
               </button>

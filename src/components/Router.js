@@ -4,6 +4,7 @@ import Contact from '../routes/Contact';
 import Home from '../routes/Home';
 import Projects from '../routes/Projects';
 import Skills from '../routes/SkillsV2';
+import Footer from './Footer';
 import Navigation from './Navigation';
 
 const AppRouter = () => {
@@ -15,6 +16,7 @@ const AppRouter = () => {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };
