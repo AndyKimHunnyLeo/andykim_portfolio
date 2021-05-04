@@ -104,9 +104,6 @@ function Contacts() {
               Send
             </button>
           </form>
-          <button id='send' onClick={() => console.log(name)}>
-            test
-          </button>
         </div>
         <LoadingGlobalOpacity loading={sending} />
       </div>
