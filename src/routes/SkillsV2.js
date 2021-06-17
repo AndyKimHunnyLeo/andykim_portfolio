@@ -6,7 +6,7 @@ const SkillsV2 = () => {
     <section className='skills'>
       {/* <div className='skills_container'> */}
       <div className='skills_container_title'>
-        <h3 className='skills_title'>The Skills I have</h3>
+        <h3 className='skills_title'>Skills</h3>
       </div>
       <div className='skills_container_skills_container' data-aos='fade-down'>
         <div className='skills_container_skills'>

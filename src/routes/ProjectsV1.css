@@ -27,12 +27,12 @@
   width: 60%;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 
 .photo_container {
-  width: 22vw;
-  height: 22vw;
+  width: 400px;
+  height: 400px;
   border-radius: 10px;
 }
 
@@ -49,16 +49,44 @@
   background: url(../resources/Dev_connect.png) no-repeat center center/cover;
 }
 
+#excel_helper {
+  background: url(../resources/Excel_heler.png) no-repeat center center/cover;
+}
+
+#rune_marker {
+  background: url(../resources/Rune_maker.PNG) no-repeat center center/cover;
+}
+
 .project_btn_container_new {
   display: flex;
   justify-content: flex-end;
 }
 
-.btn {
+.project_btn {
   width: 70px;
   height: 50px;
   margin-left: 20px;
 }
 .icons {
   padding: 5px;
+}
+
+@media (max-width: 1350px) {
+  .photo_container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .project_container {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .description_container {
+    width: 100%;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+  }
 }
