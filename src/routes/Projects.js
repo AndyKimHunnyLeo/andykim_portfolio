@@ -2,13 +2,6 @@ import React from 'react';
 import './Projects.css';
 
 const Projects = () => {
-  // const demoButton = () => {
-  //   console.log('demo');
-  // };
-
-  // const githubButton = () => {
-  //   console.log('github');
-  // };
   return (
     <section className='projects'>
       <div className='projects_title_container'>
